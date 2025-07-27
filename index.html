@@ -208,8 +208,8 @@ with all my love,
         const el = document.createElement('div');
         el.classList.add('falling');
         const isHeart = Math.random() < 0.5;
-        el.innerText = isHeart ? '💖' : '💐' ;
-        el.classList.add(isHeart ? 'sparkling-heart' : 'bouquet' );
+        el.innerText = isHeart ? '💗' : '💌' ;
+        el.classList.add(isHeart ? 'growing-heart' : 'love-letter' );
         el.style.left = Math.random() * 100 + 'vw';
         el.style.animationDuration = (3 + Math.random() * 2) + 's';
         document.body.appendChild(el);
